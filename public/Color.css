@@ -1,0 +1,76 @@
+:root{
+    --color_0: rgb(255,255,255);
+    --color_1: rgb(235, 234, 234);
+    --color_2: rgb(0,0,0);
+    --color_3: rgb(237,28,36);
+    --color_4: rgb(0,136,203);
+    --color_5: rgb(255,203,5);
+    --color_6: rgb(114,114,114);
+    --color_7: rgb(176,176,176);
+    --color_8: rgb(255,255,255);
+    --color_9: rgb(114,114,114);
+    --color_10: rgb(176,176,176);
+    --color_11: rgb(255,255,255);
+    --color_12: rgb(190,188,194);
+    --color_13: rgb(142,141,145);
+    --color_14: rgb(95,94,97);
+    --color_15: rgb(47,47,48);
+    --color_16: rgb(255,238,188);
+    --color_17: rgb(255,220,115);
+    --color_18: rgb(242,189,30);
+    --color_19: rgb(170,137,37);
+    --color_20: rgb(85,68,18);
+    --color_21: rgb(232,230,196);
+    --color_22: rgb(210,206,144);
+    --color_23: rgb(187,181,70);
+    --color_24: rgb(125,121,47);
+    --color_25: rgb(62,60,23);
+    --color_26: rgb(190,222,215);
+    --color_27: rgb(148,188,180);
+    --color_28: rgb(89,155,141);
+    --color_29: rgb(59,103,94);
+    --color_30: rgb(30,52,47);
+    --color_31: rgb(199,207,211);
+    --color_32: rgb(154,163,168);
+    --color_33: rgb(109,119,124);
+    --color_34: rgb(61,74,80);
+    --color_35: rgb(31,37,40);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
